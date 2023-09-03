@@ -10,3 +10,9 @@ echo "Hello! My name is Barbara Yeboah"
 
 # exercise: write a script that asks the user for a 
 # filename and create an empty file named after it
+
+echo "Enter the name of a new file"
+read txtname
+echo "This is the name of the new text file: $txtname.txt"
+
+touch "$txtname".txt
