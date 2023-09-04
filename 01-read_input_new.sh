@@ -16,3 +16,4 @@ read filename
 echo "This is the name of the new text file: $filename.txt"
 
 touch "$filename".txt
+
