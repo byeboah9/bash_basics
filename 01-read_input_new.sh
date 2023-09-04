@@ -12,7 +12,7 @@ echo "Hello! My name is Barbara Yeboah"
 # filename and create an empty file named after it
 
 echo "Enter the name of a new file"
-read txtname
-echo "This is the name of the new text file: $txtname.txt"
+read filename
+echo "This is the name of the new text file: $filename.txt"
 
-touch "$txtname".txt
+touch "$filename".txt
