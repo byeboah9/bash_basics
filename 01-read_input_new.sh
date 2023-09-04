@@ -16,4 +16,5 @@ read txtname
 echo "This is the name of the new text file: $txtname.txt"
 
 touch "$txtname".txt
+# new commands for main
 
